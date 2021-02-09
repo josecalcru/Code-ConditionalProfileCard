@@ -33,6 +33,7 @@ function render(variables = {}) {
   variables.name == null ? (variables.name = "") : variables.name;
   variables.lastname == null ? (variables.lastname = "") : variables.lastname;
   variables.role == null ? (variables.role = "") : variables.role;
+  variables.city == null ? (variables.city = "") : variables.city;
   variables.country == null ? (variables.country = "") : variables.country;
   variables.twitter == null ? (variables.twitter = "") : variables.twitter;
   variables.github == null ? (variables.github = "") : variables.github;
